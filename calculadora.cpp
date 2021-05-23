@@ -75,7 +75,7 @@ int main () {
 	}
 	system ("cls");
 	
-	cout << "* Utilize ponto final para separar os centavos.\n\n" << "Insira a taxa de conversão de " << moeda[moeda_origem -1] << " para " << moeda[moeda_destino -1] << ": ";
+	cout << "* Utilize ponto final para separar os centavos.\n" << "* Você pode consultar a taxa atualizada pelo link https://www.bcb.gov.br/conversao\n\n" << "Insira a taxa de conversão de " << moeda[moeda_origem -1] << " para " << moeda[moeda_destino -1] << ": ";
 	cin >> cin_conversao;
 	valor_conversao = valor_converter * cin_conversao; // multiplica o valor a converter com a taxa de conversão atual
 	taxa = valor_conversao/10; // arquiva a taxa cobrada pela empresa Muito Dinheiro
