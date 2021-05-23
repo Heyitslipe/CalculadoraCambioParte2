@@ -21,7 +21,7 @@ int main () {
 	int j, moeda_origem, moeda_destino; // j = responsável pela numeração das moedas / moeda_origem = responsável por identificar qual moeda de origem foi escolhida / moeda_destino = responsável por identificar qual moeda de destino foi escolhida
 	float valor_converter, cin_conversao, valor_conversao, valor_conversao_taxa ,taxa; // valor_converter = valor inserido pelo usuário sobre o valor que deseja converter / cin_conversao = a taxa da moeda de origem para a de destino inserida pelo usuário (conforme obtido nos valores atuais)
 
-	cout << "CASA DE CÂMBIO - MUITO DINHEIRO!\n\n" << "Calcuadora de Câmbio [Informações]: \n\n" << "* Informe sua moeda de origem e destino, assim como o valor a converter. \n" << "* A casa de câmbio Muito Dinheiro cobra uma taxa de 10% sobre cada operação de câmbio. \n" << "* É de extrema importância que informe a taxa de conversão de sua moeda de origem para a moeda de destino. \n" << "* A taxa deve estar atualizada conforme data de uso do programa. \n" << "* A taxa pode ser obtida através do Conversor de Moeda - Banco Central do Brasil ou pelo link https://www.bcb.gov.br/conversao. \n\n";
+	cout << "CASA DE CÂMBIO - MUITO DINHEIRO!\n\n" << "Calculadora de Câmbio [Informações]: \n\n" << "* Informe sua moeda de origem e destino, assim como o valor a converter. \n" << "* A casa de câmbio Muito Dinheiro cobra uma taxa de 10% sobre cada operação de câmbio. \n" << "* É de extrema importância que informe a taxa de conversão de sua moeda de origem para a moeda de destino. \n" << "* A taxa deve estar atualizada conforme data de uso do programa. \n" << "* A taxa pode ser obtida através do Conversor de Moeda - Banco Central do Brasil ou pelo link https://www.bcb.gov.br/conversao. \n\n";
 	system ("pause");
 	system ("cls");
 	
@@ -29,6 +29,7 @@ int main () {
 	cin >> nome;
 	cout << " ";
 	cin >> sobrenome;
+	system ("cls");
 	
 	inicio:
 	
