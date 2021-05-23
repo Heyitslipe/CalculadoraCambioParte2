@@ -4,6 +4,8 @@ Desafio Programação Jornada Labs HAVAN
 
 ESSE PROGRAMA BUSCA SOLUCIONAR AS CONVERSÕES DA CASA DE CÂMBIO MUITO DINHEIRO!
 
+Faça o download do arquivo calculadora.exe para executar o programa.
+
 A seguir os passos ao iniciar o programa:
 
 Passo 1: Informar seu nome e sobrenome. 
